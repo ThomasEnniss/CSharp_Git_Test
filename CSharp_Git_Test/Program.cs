@@ -14,6 +14,11 @@ namespace CSharp_Git_Test
             int second_number = 4;
             int third_number = 5;
             int fourth_number = 4;
+
+            Counter tool = new Counter();
+
+            Console.WriteLine(tool.AddNumbers(1, 2));
+
             Console.WriteLine("Hello World! + {0}", test_number+ second_number);
             Console.ReadKey();
         }
